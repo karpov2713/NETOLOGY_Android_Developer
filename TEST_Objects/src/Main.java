@@ -5,10 +5,10 @@ public class Main {
 
     public static void main(String[] args) {
         int count = 0;
-        String text = TEXT;
 
         for (int i = 0; i < TEXT.length(); i++) {
-            if(text[i] == "a" && TEXT[i + 1] == "a" && TEXT[i + 2] = "b"){
+
+            if (TEXT.regionMatches(i, PATTERN, 0, 3)){
                 count++;
             }
         }
