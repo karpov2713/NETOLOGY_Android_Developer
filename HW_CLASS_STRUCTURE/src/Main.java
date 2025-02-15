@@ -4,7 +4,7 @@ public class Main {
         Book book = new Book(author, "Android-forever", 2025, 501);
 
         System.out.println(book.isBig(book.pages));
-        System.out.println(book.estimatePrice(book.pages));
         System.out.println(book.contains("Dmitry"));
+        System.out.println(book.estimatePrice(book.pages));
     }
 }
