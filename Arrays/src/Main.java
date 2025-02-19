@@ -71,33 +71,33 @@ public class Main {
 
         // Массивы 4 - практическое занятие
 
-//        int[] temps = new int[30]; // Массив со значениями за 30 дней месяца
-//        boolean[] isFilled = new boolean[30]; // все ячейки заполнены false
-//        while (true) {
-//            System.out.println("Введите два числа: дата температура"); // 11 31
-//            String input = scanner.nextLine();
-//            if ("end".equals(input)) {
-//                break;
-//            }
-//
-//            String[] parts = input.split(" ");
-//            int day = Integer.parseInt(parts[0]) - 1;
-//            int t = Integer.parseInt(parts[1]);
-//            temps[day] = t;
-//            isFilled[day] = true;
-//
-//            double sum = 0;
-//            for (int tt : temps) {
-//                sum += tt;
-//            }
-//            int cnt = 0;
-//            for (boolean f : isFilled) {
-//                if (f) {
-//                    cnt++;
-//                }
-//            }
-//            System.out.println("Средняя температура: " + (sum / cnt));
-//        }
+        int[] temps = new int[30]; // Массив со значениями за 30 дней месяца
+        boolean[] isFilled = new boolean[30]; // все ячейки заполнены false
+        while (true) {
+            System.out.println("Введите два числа: дата температура"); // 11 31
+            String input = scanner.nextLine();
+            if ("end".equals(input)) {
+                break;
+            }
+
+            String[] parts = input.split(" ");
+            int day = Integer.parseInt(parts[0]) - 1;
+            int t = Integer.parseInt(parts[1]);
+            temps[day] = t;
+            isFilled[day] = true;
+
+            double sum = 0;
+            for (int tt : temps) {
+                sum += tt;
+            }
+            int cnt = 0;
+            for (boolean f : isFilled) {
+                if (f) {
+                    cnt++;
+                }
+            }
+            System.out.println("Средняя температура: " + (sum / cnt));
+        }
 
     }
 }
