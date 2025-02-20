@@ -6,10 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
         int[][] colors = new int[SIZE][SIZE];
-        int[][] rotatedColors90 = new int[SIZE][SIZE];
-        int[][] rotatedColors180 = new int[SIZE][SIZE];
-        int[][] rotatedColors270 = new int[SIZE][SIZE];
-
 
         Random random = new Random();
         for (int i = 0; i < SIZE; i++) {
@@ -27,9 +23,9 @@ public class Main {
         System.out.println();
 
         switch (input) {
-
             // Поворот матрицы на 90 градусов по часовой стрелке
             case "90":
+            int[][] rotatedColors90 = new int[SIZE][SIZE];
             for (int i = 0; i < SIZE; i++) {
                 for (int j = 0; j < SIZE; j++) {
                     rotatedColors90[i][j] = colors[SIZE - 1 - j][i];
@@ -41,6 +37,7 @@ public class Main {
 
             // Поворот матрицы на 180 градусов
             case "180":
+            int[][] rotatedColors180 = new int[SIZE][SIZE];
             for (int i = 0; i < SIZE; i++) {
                 for (int j = 0; j < SIZE; j++) {
                     rotatedColors180[i][j] = colors[SIZE - 1 - i][SIZE - 1 - j];
@@ -52,14 +49,18 @@ public class Main {
 
             // Поворот матрицы на 270 градусов по часовой или 90 градусов против часовой стрелки
             case "270":
+            int[][] rotatedColors270 = new int[SIZE][SIZE];
             for (int i = 0; i < SIZE; i++) {
                 for (int j = 0; j < SIZE; j++) {
-                    rotatedColors180[i][j] = colors[j][SIZE - 1 - i];
-                    System.out.format("%4d", rotatedColors180[i][j]);
+                    rotatedColors270[i][j] = colors[j][SIZE - 1 - i];
+                    System.out.format("%4d", rotatedColors270[i][j]);
                 }
                 System.out.println();
             }
             break;
+            
+            default:
+                System.out.println("Нет расчета для такого угла");
         }
     }
 }
