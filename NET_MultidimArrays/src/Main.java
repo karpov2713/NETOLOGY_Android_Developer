@@ -36,7 +36,5 @@ public class Main {
         }
 
         int[][][] arr5 = new int[10][20][5]; // Трехмерный массив
-        //System.out.println(arr5[100]);
-        //System.out.println(Arrays.deepToString(arr5));
     }
 }
