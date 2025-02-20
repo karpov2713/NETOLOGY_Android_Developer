@@ -33,9 +33,10 @@ public class Main {
         }
 
         for (int i = 0; i < orders.length; i++) {
-            System.out.println(products[i] + " " + prices[i] + " руб/шт " + orders[i] + " руб в сумме.");
+            if (orders[i] != 0) {
+                System.out.println(products[i] + " " + prices[i] + " руб/шт " + orders[i] + " руб в сумме.");
+            }
         }
-
         System.out.println("Итого " + sumProduct + " руб");
     }
 }
