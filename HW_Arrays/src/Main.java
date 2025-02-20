@@ -32,7 +32,7 @@ public class Main {
             sumProduct = sumProduct + orders[number];
         }
 
-        for (int i = 0; i < orders.length; i++) {
+        for (int i = 0; i < orders.length; i++) { // Выводим в консоль только купленные товары.
             if (orders[i] != 0) {
                 System.out.println(products[i] + " " + prices[i] + " руб/шт " + orders[i] + " руб в сумме.");
             }
