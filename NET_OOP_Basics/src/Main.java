@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person();
+        Person person = new Person("Ann", 30);
         person.setName("Petya");
         //person.age = 8;
         person.setAge(20);
@@ -9,7 +9,7 @@ public class Main {
         System.out.println(person.isTooYoung());
         System.out.println(person.getName());
 
-        Singer singer = new Singer();
+        Singer singer = new Singer("John", 28, 3);
         singer.setAge(10);
 //        singer.happyBirthday();
 //        singer.rating = 3;

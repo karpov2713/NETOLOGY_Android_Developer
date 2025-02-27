@@ -1,10 +1,12 @@
+import java.util.Objects;
+
 public class Person {
     protected String name;
     protected int age;
-    public int rating;
 
-    public void printRating (){
-        System.out.println(rating);
+    public Person(String name, int age){
+        this.name = name;
+        this.age = age;
     }
 
     public void setName(String name) {

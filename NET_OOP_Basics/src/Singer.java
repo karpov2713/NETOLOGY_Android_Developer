@@ -1,6 +1,11 @@
 public class Singer extends Person {
     public int rating;
 
+    public Singer(String name, int age, int rating){
+        super(name, age);
+        this.rating = rating;
+    }
+
     public void sing(String verse) {
         System.out.println("I sing: " + verse);
     }
