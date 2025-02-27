@@ -1,6 +1,11 @@
 public class Person {
-    private String name;
-    private int age;
+    protected String name;
+    protected int age;
+    public int rating;
+
+    public void printRating (){
+        System.out.println(rating);
+    }
 
     public void setName(String name) {
         this.name = name;
@@ -19,6 +24,11 @@ public class Person {
 
     public int getAge() {
         return age;
+    }
+
+    public void happyBirthday(){
+        age++;
+        System.out.println("Happy birthday!");
     }
 
     public boolean isTooYoung() {

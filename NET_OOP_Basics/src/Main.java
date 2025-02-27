@@ -8,5 +8,13 @@ public class Main {
         System.out.println(person.getAge());
         System.out.println(person.isTooYoung());
         System.out.println(person.getName());
+
+        Singer singer = new Singer();
+        singer.setAge(10);
+//        singer.happyBirthday();
+//        singer.rating = 3;
+        singer.sing("Happy morning!");
+        singer.happyBirthday();
+//        person.happyBirthday();
     }
 }
