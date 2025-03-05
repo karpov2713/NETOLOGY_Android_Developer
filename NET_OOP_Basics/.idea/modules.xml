@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NET_OOP_Basics.iml" filepath="$PROJECT_DIR$/NET_OOP_Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/POLIMORF/POLIMORF.iml" filepath="$PROJECT_DIR$/POLIMORF/POLIMORF.iml" />
-      <module fileurl="file://$PROJECT_DIR$/POLOMORF_Test/POLOMORF_Test.iml" filepath="$PROJECT_DIR$/POLOMORF_Test/POLOMORF_Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POLIMORF/POLIMORF_HW/POLIMORF_HW.iml" filepath="$PROJECT_DIR$/POLIMORF/POLIMORF_HW/POLIMORF_HW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POLIMORF/POLOMORF_Test/POLOMORF_Test.iml" filepath="$PROJECT_DIR$/POLIMORF/POLOMORF_Test/POLOMORF_Test.iml" />
     </modules>
   </component>
 </project>
