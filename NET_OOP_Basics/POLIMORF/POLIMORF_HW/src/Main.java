@@ -15,5 +15,8 @@ public class Main {
         company.setTaxSystem(new USN_6());
         company.shiftMoney(9000);
         company.payTaxes(company.debit, company.credit);
+
+        company.shiftMoney(-1000);
+        company.payTaxes(company.debit, company.credit);
     }
 }
