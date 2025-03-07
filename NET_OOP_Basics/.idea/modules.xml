@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/Abstractions_TEST/Abstractions_TEST.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/Abstractions_TEST/Abstractions_TEST.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/NET_Astractions_Interfaces.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/NET_Astractions_Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_OOP_Basics.iml" filepath="$PROJECT_DIR$/NET_OOP_Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/POLIMORF/POLIMORF.iml" filepath="$PROJECT_DIR$/POLIMORF/POLIMORF.iml" />
