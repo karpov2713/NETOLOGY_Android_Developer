@@ -5,7 +5,7 @@ public class Company {
     public String title;
     public int debit;
     public int credit;
-    public TaxSystem taxSystem;
+    private TaxSystem taxSystem;
 
     public Company(String title, TaxSystem taxSystem) {
         this.title = title;
@@ -26,7 +26,7 @@ public class Company {
         this.taxSystem = taxSystem;
     }
 
-    public void payTaxes(int debit, int credit) {
+    public void payTaxes() {
         System.out.println("Компания: " + title + " уплатила налог в размере: " +
                 taxSystem.calcTaxFor(debit, credit) + " руб.");
         this.debit = 0;

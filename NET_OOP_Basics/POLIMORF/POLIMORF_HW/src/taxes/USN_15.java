@@ -1,7 +1,7 @@
 package taxes;
 
 public class USN_15 extends TaxSystem {
-    public final int NALOG = 15;
+    private final int NALOG = 15;
 
     @Override
     public int calcTaxFor(int debit, int credit) {
