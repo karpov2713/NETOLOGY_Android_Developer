@@ -1,5 +1,4 @@
 public class Song {
-
     protected Instrument[] instruments;
     protected boolean[][] shouldPlay;
 

@@ -1,6 +1,6 @@
 public class Instrument {
 
-    public char playSound(){
+    public char playSound() {
         return ' ';
     }
 }

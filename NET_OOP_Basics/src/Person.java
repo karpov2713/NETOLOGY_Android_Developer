@@ -1,36 +1,15 @@
-import java.util.Objects;
-
 public class Person {
     protected String name;
     protected int age;
 
-    public Person(String name, int age){
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAge(int age) {
-        if(age < 0 || age > 200){
-            return;
-        }
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void happyBirthday(){
+    public void happyBirsday(){
         age++;
-        System.out.println("Happy birthday!");
+        System.out.println("С ДР person!");
     }
 
     public boolean isTooYoung() {
@@ -41,4 +20,14 @@ public class Person {
         }
     }
 
+    public void setAge(int age) {
+        if (age < 0 || age > 200) {
+            return;
+        }
+        this.age = age;
+    }
+
+    public int getAge(){
+        return age;
+    }
 }

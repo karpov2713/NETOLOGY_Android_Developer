@@ -1,5 +1,5 @@
 public class Singer extends Person {
-    public int rating;
+    int rating;
 
     public Singer(String name, int age, int rating){
         super(name, age);
@@ -7,19 +7,18 @@ public class Singer extends Person {
     }
 
     public void sing(String verse) {
-        System.out.println("I sing: " + verse);
+        System.out.println("Я singer, пою: " + verse);
     }
 
     @Override
-    public void happyBirthday() {
-        super.happyBirthday();
+    public void happyBirsday() {
+        super.happyBirsday();
         age++;
-        System.out.println("I'm sing to me Happy Birthday!");
+        System.out.println("Я пою себе С ДР!!!");
     }
 
     @Override
     public String toString() {
-        return "[" + rating + "] " + name + " (" + age + " лет";
+        return "Rating: [" + rating + "] " + name + " (" + age + " лет)";
     }
-
 }

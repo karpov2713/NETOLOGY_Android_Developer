@@ -1,21 +1,18 @@
 public class Main {
+
     public static void main(String[] args) {
         String name = "Petya";
 
         Car car = new Car();
+        System.out.println(car.fuel);
         spbToMoscow(name, car);
 
         Ship ship = new Ship();
-        spbToMoscow(name, ship);
-
-        Plane plane = new Plane();
-        spbToMoscow(name, plane);
-
-        Velo velo = new Velo();
-        spbToMoscow(name, velo);
+        ship.transfer(name, "SPB", "MSK");
     }
 
-    public static void spbToMoscow(String name, Transferer transport) {
+    public static void spbToMoscow(String name, Transport transport){
         transport.transfer(name, "SPB", "MSK");
     }
+
 }

@@ -1,7 +1,7 @@
-public class Guitar extends Instrument{
+public class Guitar extends Instrument {
 
     @Override
-    public char playSound(){
+    public char playSound() {
         return '$';
     }
 }
