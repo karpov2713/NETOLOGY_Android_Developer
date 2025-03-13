@@ -1,6 +1,6 @@
 public class CreditAccount extends Account{
 
-    public long creditLimit;
+    private long creditLimit;
 
     public CreditAccount(long creditLimit){
         this.creditLimit = creditLimit;
@@ -8,7 +8,7 @@ public class CreditAccount extends Account{
 
     @Override
     public boolean add(long amount) {
-        return false;
+        if balance
     }
 
     @Override

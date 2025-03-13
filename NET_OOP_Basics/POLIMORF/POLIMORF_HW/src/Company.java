@@ -14,7 +14,7 @@ public class Company {
         this.credit = 0;
     }
 
-    void shiftMoney(int amount) {
+    public void shiftMoney(int amount) {
         if (amount > 0) {
             debit += amount;
         } else if (amount < 0) {

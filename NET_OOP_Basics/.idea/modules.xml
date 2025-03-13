@@ -3,10 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/Abstractions_TEST/Abstractions_TEST.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/Abstractions_TEST/Abstractions_TEST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ERRORS/ERRORS.iml" filepath="$PROJECT_DIR$/ERRORS/ERRORS.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/HW_ABSTR_INTERF_1/HW_ABSTR_INTERF_1.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/HW_ABSTR_INTERF_1/HW_ABSTR_INTERF_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/HW_ABSTR_INTERF_2/HW_ABSTR_INTERF_2.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/HW_ABSTR_INTERF_2/HW_ABSTR_INTERF_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/NET_Astractions_Interfaces.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/NET_Astractions_Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_OOP_Basics.iml" filepath="$PROJECT_DIR$/NET_OOP_Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_WEBINAR/OOP_WEBINAR.iml" filepath="$PROJECT_DIR$/OOP_WEBINAR/OOP_WEBINAR.iml" />
       <module fileurl="file://$PROJECT_DIR$/POLIMORF/POLIMORF.iml" filepath="$PROJECT_DIR$/POLIMORF/POLIMORF.iml" />
       <module fileurl="file://$PROJECT_DIR$/POLIMORF/POLIMORF_HW/POLIMORF_HW.iml" filepath="$PROJECT_DIR$/POLIMORF/POLIMORF_HW/POLIMORF_HW.iml" />
       <module fileurl="file://$PROJECT_DIR$/POLIMORF/POLOMORF_Test/POLOMORF_Test.iml" filepath="$PROJECT_DIR$/POLIMORF/POLOMORF_Test/POLOMORF_Test.iml" />
