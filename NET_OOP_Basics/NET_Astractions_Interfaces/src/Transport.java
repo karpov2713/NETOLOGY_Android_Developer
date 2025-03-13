@@ -1,4 +1,4 @@
-public abstract class Transport {
+public abstract class Transport implements Transferer, Billable {
     public int fuel;
 
     public Transport(int fuel){
@@ -9,7 +9,10 @@ public abstract class Transport {
         this.fuel -= fuel;
     }
 
-    public void transfer(String name, String from, String to){
+    @Override
+    public void pay(int amount) {
 
     }
+
+    //public abstract void transfer(String name, String from, String to);
 }

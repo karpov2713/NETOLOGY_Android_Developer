@@ -6,7 +6,7 @@ public class Ship extends Transport {
 
     @Override
     public void transfer(String name, String from, String to) {
-        System.out.println("Пассажир " + name + " поплыл из " + from + " в " + to);
+        System.out.println("Пассажир " + name + " поплыл на SHIP из " + from + " в " + to);
         spendFuel(80);
     }
 }

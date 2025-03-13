@@ -7,5 +7,7 @@ public abstract class Account {
 
     public abstract boolean transfer(Account account, long amount);
 
-    public abstract void getBalance();
+    public long getBalance(){
+        return amount;
+    }
 }
