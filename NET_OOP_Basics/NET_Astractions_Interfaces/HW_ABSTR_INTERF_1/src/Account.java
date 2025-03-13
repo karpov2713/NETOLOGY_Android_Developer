@@ -6,8 +6,4 @@ public abstract class Account {
     public abstract boolean pay(long amount);
 
     public abstract boolean transfer(Account account, long amount);
-
-    public long getBalance(){
-        return amount;
-    }
 }

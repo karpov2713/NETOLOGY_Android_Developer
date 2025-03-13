@@ -20,4 +20,8 @@ public class CreditAccount extends Account{
     public boolean transfer(Account account, long amount) {
         return false;
     }
+
+    public long getBalance(){
+        return creditLimit;
+    }
 }
