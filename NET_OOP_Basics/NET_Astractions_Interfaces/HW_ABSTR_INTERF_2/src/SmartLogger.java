@@ -1,13 +1,15 @@
 import java.time.LocalDateTime;
 
-public class SmartLogger implements Logger{
-
-    public static int callCount = 0;
-
+public class SmartLogger implements Logger {
+    private int callCounter = 0;
 
     @Override
     public void log(String msg) {
-        ++callCount;
-        System.out.println("INFO#" + callCount + " " + LocalDateTime.now() + msg);
+
+        System.out.printf("[%s]#%d [%s] %s\n",
+                msg.toLowerCase().contains("ошибка") ? "ERROR":"INFO",
+                callCounter++,
+                LocalDateTime.now(),
+                msg);
     }
 }
