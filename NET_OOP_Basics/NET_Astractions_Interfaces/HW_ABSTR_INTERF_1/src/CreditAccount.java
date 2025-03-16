@@ -8,20 +8,19 @@ public class CreditAccount extends Account{
 
     @Override
     public boolean add(long amount) {
-        if balance
+        if (balance + amount <= 0){
+            balance += amount;
+            return true;
+        }
+        return false;
     }
 
     @Override
     public boolean pay(long amount) {
+        if (balance - amount >= creditLimit){
+            balance -= amount;
+            return true;
+        }
         return false;
-    }
-
-    @Override
-    public boolean transfer(Account account, long amount) {
-        return false;
-    }
-
-    public long getBalance(){
-        return creditLimit;
     }
 }

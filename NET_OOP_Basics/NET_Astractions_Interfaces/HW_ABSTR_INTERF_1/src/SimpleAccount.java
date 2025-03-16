@@ -1,25 +1,17 @@
 public class SimpleAccount extends Account {
 
-    public SimpleAccount(long amount){
-        this.amount = amount;
-    }
-
     @Override
     public boolean add(long amount) {
-        return false;
+        balance += amount;
+        return true;
     }
 
     @Override
     public boolean pay(long amount) {
+        if (balance >= amount) {
+            balance -= amount;
+            return true;
+        }
         return false;
-    }
-
-    @Override
-    public boolean transfer(Account account, long amount) {
-        return false;
-    }
-
-    public long getBalance(){
-        return amount;
     }
 }

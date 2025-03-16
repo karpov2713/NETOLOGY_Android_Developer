@@ -1,5 +1,9 @@
 public abstract class Account {
-    long balance;
+    protected long balance;
+
+    public long getBalance() {
+        return balance;
+    }
 
     public abstract boolean add(long amount);
 
@@ -15,7 +19,5 @@ public abstract class Account {
         return false;
     }
 
-    public long getBalance() {
-        return balance;
-    }
+
 }
