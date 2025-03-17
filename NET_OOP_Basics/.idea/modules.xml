@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/Abstractions_TEST/Abstractions_TEST.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/Abstractions_TEST/Abstractions_TEST.iml" />
       <module fileurl="file://$PROJECT_DIR$/ERRORS/ERRORS.iml" filepath="$PROJECT_DIR$/ERRORS/ERRORS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ERRORS_HW/ERRORS_HW.iml" filepath="$PROJECT_DIR$/ERRORS_HW/ERRORS_HW.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/HW_ABSTR_INTERF_1/HW_ABSTR_INTERF_1.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/HW_ABSTR_INTERF_1/HW_ABSTR_INTERF_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/HW_ABSTR_INTERF_2/HW_ABSTR_INTERF_2.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/HW_ABSTR_INTERF_2/HW_ABSTR_INTERF_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/NET_Astractions_Interfaces.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/NET_Astractions_Interfaces.iml" />
