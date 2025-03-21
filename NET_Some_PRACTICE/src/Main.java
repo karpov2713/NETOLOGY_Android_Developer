@@ -1,10 +1,26 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.logging.SocketHandler;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Java движет веб-сетью!");
 
-        Cat cat  = new Cat();
+       List<String> list = new ArrayList<>();
+       list.add("Petya");
+       list.add("Olya");
+       list.add("Tanya");
 
-        System.out.println("myCat1 содержите " + cat.myCat1);
-        System.out.println("myCat2 содержите " + cat.myCat2);
+        for(Iterator<String> it = list.iterator();
+            it.hasNext();){
+            String name = it.next();
+            System.out.println("name: " + name);
+        }
+
+        Iterator<String> it = list.iterator();
+        while (it.hasNext()){
+            String s = it.next();
+            System.out.println(s);
+        }
     }
 }
