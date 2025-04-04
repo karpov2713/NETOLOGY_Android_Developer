@@ -3,10 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/Abstractions_TEST/Abstractions_TEST.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/Abstractions_TEST/Abstractions_TEST.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ERRORS/ERRORS.iml" filepath="$PROJECT_DIR$/ERRORS/ERRORS.iml" />
       <module fileurl="file://$PROJECT_DIR$/ERRORS_HW/ERRORS_HW.iml" filepath="$PROJECT_DIR$/ERRORS_HW/ERRORS_HW.iml" />
       <module fileurl="file://$PROJECT_DIR$/GENERICS/GENERICS.iml" filepath="$PROJECT_DIR$/GENERICS/GENERICS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GENERIC_TEST/GENERIC_TEST.iml" filepath="$PROJECT_DIR$/GENERIC_TEST/GENERIC_TEST.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/HW_ABSTR_INTERF_1/HW_ABSTR_INTERF_1.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/HW_ABSTR_INTERF_1/HW_ABSTR_INTERF_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/HW_ABSTR_INTERF_2/HW_ABSTR_INTERF_2.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/HW_ABSTR_INTERF_2/HW_ABSTR_INTERF_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/LIST_COLLECTIONS/HW_List_1/HW_List_1.iml" filepath="$PROJECT_DIR$/LIST_COLLECTIONS/HW_List_1/HW_List_1.iml" />
@@ -18,10 +16,8 @@
       <module fileurl="file://$PROJECT_DIR$/NET_Hash_HashMap/NET_Hash_HashMap.iml" filepath="$PROJECT_DIR$/NET_Hash_HashMap/NET_Hash_HashMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_OOP_Basics.iml" filepath="$PROJECT_DIR$/NET_OOP_Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_ObjectCompare/NET_ObjectCompare.iml" filepath="$PROJECT_DIR$/NET_ObjectCompare/NET_ObjectCompare.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NET_QUEUE/NET_QUEUE.iml" filepath="$PROJECT_DIR$/NET_QUEUE/NET_QUEUE.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_Set_HashSet/NET_Set_HashSet.iml" filepath="$PROJECT_DIR$/NET_Set_HashSet/NET_Set_HashSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_TreeSetMap/NET_TreeSetMap.iml" filepath="$PROJECT_DIR$/NET_TreeSetMap/NET_TreeSetMap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OOP_WEBINAR/OOP_WEBINAR.iml" filepath="$PROJECT_DIR$/OOP_WEBINAR/OOP_WEBINAR.iml" />
       <module fileurl="file://$PROJECT_DIR$/POLIMORF/POLIMORF.iml" filepath="$PROJECT_DIR$/POLIMORF/POLIMORF.iml" />
       <module fileurl="file://$PROJECT_DIR$/POLIMORF/POLIMORF_HW/POLIMORF_HW.iml" filepath="$PROJECT_DIR$/POLIMORF/POLIMORF_HW/POLIMORF_HW.iml" />
       <module fileurl="file://$PROJECT_DIR$/POLIMORF/POLOMORF_Test/POLOMORF_Test.iml" filepath="$PROJECT_DIR$/POLIMORF/POLOMORF_Test/POLOMORF_Test.iml" />

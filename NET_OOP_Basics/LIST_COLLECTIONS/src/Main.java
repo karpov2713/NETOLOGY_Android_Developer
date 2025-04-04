@@ -11,5 +11,7 @@ public class Main {
         list.add("Olya");
         list.add("Tanya");
 
+        System.out.println(list);
+
     }
 }
