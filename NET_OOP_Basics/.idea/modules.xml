@@ -12,7 +12,13 @@
       <module fileurl="file://$PROJECT_DIR$/LIST_COLLECTIONS/HW_List_1/HW_List_1.iml" filepath="$PROJECT_DIR$/LIST_COLLECTIONS/HW_List_1/HW_List_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/LIST_COLLECTIONS/LIST_COLLECTIONS.iml" filepath="$PROJECT_DIR$/LIST_COLLECTIONS/LIST_COLLECTIONS.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_Astractions_Interfaces/NET_Astractions_Interfaces.iml" filepath="$PROJECT_DIR$/NET_Astractions_Interfaces/NET_Astractions_Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NET_HW_HASH/NET_HW_HASH.iml" filepath="$PROJECT_DIR$/NET_HW_HASH/NET_HW_HASH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NET_HashSET_HashMAP/NET_HashSET_HashMAP.iml" filepath="$PROJECT_DIR$/NET_HashSET_HashMAP/NET_HashSET_HashMAP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NET_Hash_HashMap/NET_Hash_HashMap.iml" filepath="$PROJECT_DIR$/NET_Hash_HashMap/NET_Hash_HashMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/NET_OOP_Basics.iml" filepath="$PROJECT_DIR$/NET_OOP_Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NET_Queue/NET_Queue.iml" filepath="$PROJECT_DIR$/NET_Queue/NET_Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NET_Set_HashSet/NET_Set_HashSet.iml" filepath="$PROJECT_DIR$/NET_Set_HashSet/NET_Set_HashSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NET_TreeMap_TreeSet/NET_TreeMap_TreeSet.iml" filepath="$PROJECT_DIR$/NET_TreeMap_TreeSet/NET_TreeMap_TreeSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP_WEBINAR/OOP_WEBINAR.iml" filepath="$PROJECT_DIR$/OOP_WEBINAR/OOP_WEBINAR.iml" />
       <module fileurl="file://$PROJECT_DIR$/POLIMORF/POLIMORF.iml" filepath="$PROJECT_DIR$/POLIMORF/POLIMORF.iml" />
       <module fileurl="file://$PROJECT_DIR$/POLIMORF/POLIMORF_HW/POLIMORF_HW.iml" filepath="$PROJECT_DIR$/POLIMORF/POLIMORF_HW/POLIMORF_HW.iml" />
